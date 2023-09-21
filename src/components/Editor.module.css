@@ -1,0 +1,118 @@
+.container {
+    width: 1200px;
+  max-height: 1600px;
+  overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 1px 1px 4px black;
+    padding-top: 20px;
+    margin-left: 250px;
+    padding-left: 15px;
+    margin-bottom: 300px;
+    background-color: whitesmoke;
+    margin-top: 90px;
+  }
+  
+  .header {
+    display: flex;
+    gap: 45px;
+    overflow-x: auto;
+    border-radius: 1px solid black;
+  }
+  
+  .header .section { 
+    padding: 10px;
+    border-bottom: 1px solid transparent;
+    font-weight: bold;
+    font-size: 16px;
+
+    white-space: nowrap;
+    cursor: pointer;
+    margin-left: 30px;
+  }
+  .header.active{
+    border-bottom: 2px solid royalblue;
+    color: white;
+  }
+  .body{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+  }
+  .detail{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+  }
+  .detail label{
+    color: black;
+    margin-top: 35px;
+    
+    
+  }
+  .detail input{
+    width: 100%;
+  }
+  .detail.row{
+    display: flex;
+    gap: 30px;
+  }
+.detail.column{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.detail.row >div{
+    flex:1;
+}
+.chips{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.chip{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 4px 8px;
+    background-color: grey;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 30px;
+}
+.chip p{
+    font-weight: 500;
+    line-height: 1.25rem;
+    color: white;
+    padding-top: 12px;
+}
+.chip svg{
+    color: white;
+    height: 15px;
+    width: 18px;
+    cursor: pointer;
+}
+.chip .active{
+    background-color: aquamarine;
+}
+.body button{
+    width: fit-content;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: royalblue;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor:pointer;
+}
+.body button:active{
+    transform: translate(2px);
+}

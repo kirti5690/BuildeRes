@@ -1,5 +1,5 @@
 import React from 'react'
-import myVideo from './images/Untitled design.mp4'
+import myVideo from './images/Videohome.mp4'
 
 
 function Navbar() {

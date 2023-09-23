@@ -1,6 +1,5 @@
 import React from "react";
-// import myVideo from "./images/Videohome.mp4";
-import videoTwo from "./images/2ndVideo.mp4";
+import myVideo from "./images/Videohome.mp4";
 
 function Navbar() {
   return (
@@ -23,12 +22,8 @@ function Navbar() {
       </nav>
 
       <div id="video-container">
-        {/* <video autoPlay muted loop id="background-video">
+        <video autoPlay muted loop id="background-video">
           <source src={myVideo} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video> */}
-        <video autoPlay muted loop id="background-video null-class">
-          <source src={videoTwo}/>
         </video>
       </div>
     </div>
